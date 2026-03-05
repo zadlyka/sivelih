@@ -15,37 +15,34 @@ export const RELEASES: Release[] = [
     label: "Latest Stable",
     date: "05 Maret 2026",
     size: "645 MB",
-    changelog: [
-      "Deteksi anomali",
-      "Lengkapi Data Pemilih",
-    ],
+    changelog: ["Deteksi anomali", "Lengkapi Data Pemilih"],
     highlight: true,
-    href: "/downloads/SIVELIH_Setup_v0.1.0.exe",
+    href: "https://github.com/zadlyka/sivelih-desktop/releases/download/v0.1.0/SIVELIH_Setup_v0.1.0.exe",
   },
-//   {
-//     version: "v2.3.0",
-//     label: "Previous",
-//     date: "10 Apr 2026",
-//     size: "81.7 MB",
-//     changelog: [
-//       "Tambah modul ekspor PDF laporan anomali",
-//       "Optimasi performa load awal aplikasi",
-//     ],
-//     highlight: false,
-//     href: "/downloads/SIVELIH_Setup_v2.3.0.exe",
-//   },
-//   {
-//     version: "v2.2.5",
-//     label: "Legacy",
-//     date: "03 Feb 2026",
-//     size: "79.4 MB",
-//     changelog: [
-//       "Hotfix koneksi database offline",
-//       "Penyesuaian format DPT Q1 2026",
-//     ],
-//     highlight: false,
-//     href: "/downloads/SIVELIH_Setup_v2.2.5.exe",
-//   },
+  //   {
+  //     version: "v2.3.0",
+  //     label: "Previous",
+  //     date: "10 Apr 2026",
+  //     size: "81.7 MB",
+  //     changelog: [
+  //       "Tambah modul ekspor PDF laporan anomali",
+  //       "Optimasi performa load awal aplikasi",
+  //     ],
+  //     highlight: false,
+  //     href: "/downloads/SIVELIH_Setup_v2.3.0.exe",
+  //   },
+  //   {
+  //     version: "v2.2.5",
+  //     label: "Legacy",
+  //     date: "03 Feb 2026",
+  //     size: "79.4 MB",
+  //     changelog: [
+  //       "Hotfix koneksi database offline",
+  //       "Penyesuaian format DPT Q1 2026",
+  //     ],
+  //     highlight: false,
+  //     href: "/downloads/SIVELIH_Setup_v2.2.5.exe",
+  //   },
 ];
 
 export const SYSTEM_REQUIREMENTS = [
