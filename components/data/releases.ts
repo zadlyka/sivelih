@@ -11,26 +11,23 @@ export type Release = {
 
 export const RELEASES: Release[] = [
   {
-    version: "v0.1.0",
+    version: "v0.2.0",
     label: "Latest Stable",
+    date: "06 Maret 2026",
+    size: "646 MB",
+    changelog: ["Pisah Data Pemilih"],
+    highlight: true,
+    href: "https://github.com/zadlyka/sivelih-desktop/releases/download/v0.2.0/SIVELIH_Setup_v0.2.0.exe",
+  },
+  {
+    version: "v0.1.0",
+    label: "Previous",
     date: "05 Maret 2026",
     size: "645 MB",
     changelog: ["Deteksi anomali", "Lengkapi Data Pemilih"],
-    highlight: true,
+    highlight: false,
     href: "https://github.com/zadlyka/sivelih-desktop/releases/download/v0.1.0/SIVELIH_Setup_v0.1.0.exe",
   },
-  //   {
-  //     version: "v2.3.0",
-  //     label: "Previous",
-  //     date: "10 Apr 2026",
-  //     size: "81.7 MB",
-  //     changelog: [
-  //       "Tambah modul ekspor PDF laporan anomali",
-  //       "Optimasi performa load awal aplikasi",
-  //     ],
-  //     highlight: false,
-  //     href: "/downloads/SIVELIH_Setup_v2.3.0.exe",
-  //   },
   //   {
   //     version: "v2.2.5",
   //     label: "Legacy",
